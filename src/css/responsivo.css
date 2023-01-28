@@ -1,0 +1,44 @@
+@media ( max-width: 600px) {
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    nav ul {
+        width: 250px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    nav ul a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+    }
+
+    section .apresentacao h1 {
+        font-size: 20px;
+    }
+
+    section .descricao h1 {
+        font-size: 30px;
+        padding-bottom: 25px;
+    }
+
+    section .descricao p {
+        font-size: 15px;
+    }
+
+    section .conteudo-carta {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    section .conteudo-icone .icone {
+        width: 60px;
+    }
+
+}
