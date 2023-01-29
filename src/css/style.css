@@ -56,6 +56,11 @@ section .apresentacao h3 {
     margin-bottom: 40px;
     font-size: 25px;
 }
+section .apresentacao .botoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 section .apresentacao .btn  {
     background-color: #ffffff;
@@ -63,6 +68,13 @@ section .apresentacao .btn  {
     padding: 15px;
     border-radius: 10px;
     margin-right: 10px;
+    transition: 0.4s;
+}
+
+section .apresentacao .btn:hover {
+    background-color: #221133;
+    color: #ffffff;
+    letter-spacing: 4px;
 }
 
 section .descricao {
@@ -83,6 +95,7 @@ section .descricao p {
     font-size: 30px;  
 }
 
+
 section .conteudo-carta {
     display: flex;
 }
@@ -90,10 +103,13 @@ section .conteudo-carta {
 section .conteudo-carta .carta {
     width: 250px;
     margin: 15px;
+    border-style: solid;
+    border-radius: 15px;
 } 
 
 section .conteudo-carta .carta img {
    width: 100%;
+   height: 100%;
    border-radius: 15px;
 }
 
@@ -113,14 +129,23 @@ section .conteudo-icone .icone img {
 }
 
 section:nth-of-type(1){
-    background-color: #130716;
+  background-image: linear-gradient(
+    45deg, #000000, #221133
+  );
 }
 section:nth-of-type(2){
-    background-color: #130716;
+    background-image: linear-gradient(
+        135deg, #000000, #221133
+      );
 }
 section:nth-of-type(3){
-    background-color: #130716;
+    background-image: linear-gradient(
+        45deg, #000000, #221133
+      );
 }
 section:nth-of-type(4){
-    background-color: #130716;
+    background-image: linear-gradient(
+        135deg, #000000, #221133
+      );
 }
+
